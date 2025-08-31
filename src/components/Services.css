@@ -1,0 +1,129 @@
+.services-section {
+  background: #f8f9fa;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-left-color: #2c5530;
+  box-shadow: 0 20px 40px rgba(44, 85, 48, 0.15);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #2c5530;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  color: #2c5530;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.service-details {
+  list-style: none;
+  padding: 0;
+}
+
+.service-details li {
+  color: #666;
+  padding: 5px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.service-details li:before {
+  content: "✓";
+  color: #2c5530;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.services-highlight {
+  background: linear-gradient(135deg, #2c5530 0%, #1e3a21 100%);
+  color: white;
+  padding: 60px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.highlight-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.highlight-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.highlight-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.feature-text {
+  font-size: 1rem;
+  opacity: 0.9;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: 30px 20px;
+  }
+
+  .services-highlight {
+    padding: 40px 20px;
+  }
+
+  .highlight-content h3 {
+    font-size: 2rem;
+  }
+
+  .highlight-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-number {
+    font-size: 2rem;
+  }
+}
