@@ -39,7 +39,7 @@ const Contact = () => {
       <div className="container">
         <h2 className="section-title">Contact Us</h2>
         <p className="section-subtitle">
-          Ready to start your coir export journey? Get in touch with us for
+          Ready to start your coir benefit journey? Get in touch with us for
           personalized quotes and expert guidance.
         </p>
 
@@ -56,8 +56,7 @@ const Contact = () => {
                 <FaPhone className="contact-icon" />
                 <div>
                   <h4>Phone</h4>
-                  <p>+91 98765 43210</p>
-                  <p>+91 98765 43211</p>
+                  <p>+91 86258 56608</p>
                 </div>
               </div>
 
@@ -65,8 +64,7 @@ const Contact = () => {
                 <FaEnvelope className="contact-icon" />
                 <div>
                   <h4>Email</h4>
-                  <p>info@zencoir.com</p>
-                  <p>exports@zencoir.com</p>
+                  <p>info@zencoir.in</p>
                 </div>
               </div>
 
@@ -74,15 +72,15 @@ const Contact = () => {
                 <FaMapMarkerAlt className="contact-icon" />
                 <div>
                   <h4>Address</h4>
-                  <p>123 Export Street, Industrial Area</p>
-                  <p>Mumbai, Maharashtra 400001, India</p>
+                  <p>Yashashree Society, Marutrao Gaikwadnagar, Aundh</p>
+                  <p>Pune, Maharashtra 411067, India</p>
                 </div>
               </div>
 
               <div className="contact-item">
                 <FaClock className="contact-icon" />
                 <div>
-                  <h4>Business Hours</h4>
+                  <h4>Business Hours (IST) </h4>
                   <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
                   <p>Saturday: 9:00 AM - 2:00 PM</p>
                 </div>

@@ -122,15 +122,15 @@ const Services = () => {
             <h3>Why Choose Zencoir?</h3>
             <div className="highlight-features">
               <div className="highlight-feature">
-                <span className="feature-number">20+</span>
-                <span className="feature-text">Years of Experience</span>
+                <span className="feature-number">100%</span>
+                <span className="feature-text">Commitment to Quality</span>
               </div>
               <div className="highlight-feature">
                 <span className="feature-number">50+</span>
                 <span className="feature-text">Countries Served</span>
               </div>
               <div className="highlight-feature">
-                <span className="feature-number">1000+</span>
+                <span className="feature-number">100+</span>
                 <span className="feature-text">Happy Clients</span>
               </div>
               <div className="highlight-feature">

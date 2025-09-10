@@ -8,17 +8,17 @@ const About = () => {
       <div className="container">
         <h2 className="section-title">About Zencoir</h2>
         <p className="section-subtitle">
-          Your trusted partner in premium coir exports with decades of
-          experience and commitment to quality and sustainability.
+          Your trusted partner in premium coir exports with fresh experience and
+          commitment to quality and sustainability.
         </p>
 
         <div className="about-content">
           <div className="about-text">
             <h3>Leading Coir Export Excellence</h3>
             <p>
-              Zencoir has been at the forefront of coir product exports for over
-              two decades. We specialize in sourcing, processing, and exporting
-              the finest quality coir products to markets worldwide.
+              Zencoir has the commitment for coir product exports for the coming
+              years. We specialize in sourcing, processing, and exporting the
+              finest quality coir products to markets worldwide.
             </p>
             <p>
               Our commitment to sustainable practices and eco-friendly solutions
@@ -36,8 +36,8 @@ const About = () => {
             <div className="stat-item">
               <FaAward className="stat-icon" />
               <div className="stat-content">
-                <h4>20+ Years</h4>
-                <p>Industry Experience</p>
+                <h4>100%</h4>
+                <p>Commitment to Quality</p>
               </div>
             </div>
             <div className="stat-item">
@@ -50,7 +50,7 @@ const About = () => {
             <div className="stat-item">
               <FaHandshake className="stat-icon" />
               <div className="stat-content">
-                <h4>1000+ Clients</h4>
+                <h4>100+ Clients</h4>
                 <p>Satisfied Customers</p>
               </div>
             </div>

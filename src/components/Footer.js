@@ -22,9 +22,8 @@ const Footer = () => {
               <p>Export Excellence</p>
             </div>
             <p className="footer-description">
-              Leading exporter of premium coir products with over two decades of
-              experience in serving global markets with sustainable,
-              eco-friendly solutions.
+              Exporter of premium coir products with commitment to quality in
+              serving global markets with sustainable, eco-friendly solutions.
             </p>
             <div className="social-links">
               <a href="#" className="social-link">
@@ -90,15 +89,15 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <FaPhone />
-                <span>+91 98765 43210</span>
+                <span>+91 86258 56608</span>
               </div>
               <div className="contact-item">
                 <FaEnvelope />
-                <span>info@zencoir.com</span>
+                <span>info@zencoir.in</span>
               </div>
               <div className="contact-item">
                 <FaMapMarkerAlt />
-                <span>123 Export Street, Mumbai, India</span>
+                <span>Aundh, Pune, India</span>
               </div>
             </div>
           </div>
@@ -106,7 +105,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>&copy; 2024 Zencoir. All rights reserved.</p>
+            <p>&copy; 2025 Zencoir. All rights reserved.</p>
             <div className="footer-bottom-links">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
