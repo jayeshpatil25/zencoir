@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/zencoir/static/css/main.1f3aa865.css",
-    "main.js": "/zencoir/static/js/main.8b4f1276.js",
+    "main.js": "/zencoir/static/js/main.7571d607.js",
+    "static/media/img3.jpg": "/zencoir/static/media/img3.f1cd11b72c821cebedeb.jpg",
+    "static/media/img2.jpg": "/zencoir/static/media/img2.f4ac50e2310eafcdd4c7.jpg",
+    "static/media/img4.jpg": "/zencoir/static/media/img4.b2841a51cdfd28377e84.jpg",
+    "static/media/img6.jpg": "/zencoir/static/media/img6.95955a5d1398296e75f4.jpg",
+    "static/media/img5.jpg": "/zencoir/static/media/img5.239eebf5b9e9c762dd4a.jpg",
+    "static/media/vermicompost.jpg": "/zencoir/static/media/vermicompost.a08aae1cf7c840d606e2.jpg",
+    "static/media/coir-pith.jpg": "/zencoir/static/media/coir-pith.bb3e6338c16e61bffc7c.jpg",
+    "static/media/logo.jpg": "/zencoir/static/media/logo.098215c3f6c87e227960.jpg",
+    "static/media/img1.jpg": "/zencoir/static/media/img1.cb3a2a2306aed3d9acf6.jpg",
     "index.html": "/zencoir/index.html",
     "main.1f3aa865.css.map": "/zencoir/static/css/main.1f3aa865.css.map",
-    "main.8b4f1276.js.map": "/zencoir/static/js/main.8b4f1276.js.map"
+    "main.7571d607.js.map": "/zencoir/static/js/main.7571d607.js.map"
   },
   "entrypoints": [
     "static/css/main.1f3aa865.css",
-    "static/js/main.8b4f1276.js"
+    "static/js/main.7571d607.js"
   ]
 }
