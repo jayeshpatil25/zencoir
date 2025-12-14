@@ -43,6 +43,15 @@
     }
   }
   ,
+  "contact_email": {
+    "subject_template": "New Quote Received - {{name}} - {{email}} - {{company}} - {{phone}} - {{product}}",
+    "unknown": "Unknown",
+    "no_email": "no-email",
+    "no_company": "no-company",
+    "no_phone": "no-phone",
+    "no_product": "no-product"
+  }
+  ,
   "hero": {
     "badge": "Sustainable Export Solutions",
     "title_line1": "Refining Nature's",
@@ -67,6 +76,8 @@
       "materials": "Natural Materials",
       "reach": "Trusted Reach"
     }
+    ,
+    "image_alt": "Zencoir coir product image {{index}}"
   },
   "products": {
     "heading": "Our Products",

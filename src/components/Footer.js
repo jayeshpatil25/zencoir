@@ -94,9 +94,9 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-400">
-          <p>&copy; 2025 Zencoir. All rights reserved.</p>
+          <p>{t('footer.bottom.copyright')}</p>
           <p className="mt-2 md:mt-0">
-            Premium Coir Exporters • Pune, India
+            {t('footer.bottom.note')}
           </p>
         </div>
       </div>

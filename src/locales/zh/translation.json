@@ -43,6 +43,15 @@
     }
   }
   ,
+  "contact_email": {
+    "subject_template": "收到新报价 - {{name}} - {{email}} - {{company}} - {{phone}} - {{product}}",
+    "unknown": "未知",
+    "no_email": "无邮箱",
+    "no_company": "无公司",
+    "no_phone": "无电话",
+    "no_product": "无产品"
+  }
+  ,
   "hero": {
     "badge": "可持续出口解决方案",
     "title_line1": "精炼自然的",
@@ -67,6 +76,8 @@
       "materials": "天然材料",
       "reach": "值得信赖的覆盖"
     }
+    ,
+    "image_alt": "Zencoir 椰壳产品图片 {{index}}"
   },
   "products": {
     "heading": "我们的产品",

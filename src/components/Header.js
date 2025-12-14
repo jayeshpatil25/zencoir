@@ -37,7 +37,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <img
               src={logo}
-              alt="Zencoir Logo"
+              alt={t('header.brand')}
               className="h-20 w-20 object-contain"
             />
             <div className="flex flex-col">

@@ -67,6 +67,8 @@
       "materials": "Natuurlijke materialen",
       "reach": "Vertrouwde bereik"
     }
+    ,
+    "image_alt": "Zencoir coir product afbeelding {{index}}"
   },
   "products": {
     "heading": "Onze producten",
@@ -116,5 +118,14 @@
       "copyright": "© 2025 Zencoir. Alle rechten voorbehouden.",
       "note": "Premium Coir Exporters • Pune, India"
     }
+  }
+  ,
+  "contact_email": {
+    "subject_template": "Nieuwe offerte ontvangen - {{name}} - {{email}} - {{company}} - {{phone}} - {{product}}",
+    "unknown": "Onbekend",
+    "no_email": "geen-email",
+    "no_company": "geen-bedrijf",
+    "no_phone": "geen-telefoon",
+    "no_product": "geen-product"
   }
 }

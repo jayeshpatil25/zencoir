@@ -73,12 +73,12 @@ const About = () => {
           </div>
 
           {/* RIGHT — CAROUSEL */}
-          <div className="relative w-full h-[420px] rounded-2xl overflow-hidden shadow-lg lg:ml-10">
+            <div className="relative w-full h-[420px] rounded-2xl overflow-hidden shadow-lg lg:ml-10">
             {images.map((img) => (
               <img
                 key={img}
                 src={img}
-                alt="Zencoir coir products"
+                alt={t('about.image_alt', { index: current + 1 })}
                 className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
                   images[current] === img ? "opacity-100" : "opacity-0"
                 }`}

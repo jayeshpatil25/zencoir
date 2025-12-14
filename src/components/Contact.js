@@ -30,8 +30,7 @@ const Contact = () => {
     const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
     const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
     const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
-    const toEmail =
-      process.env.REACT_APP_EMAILJS_TO_EMAIL || "info@zencoir.in";
+    const toEmail = process.env.REACT_APP_EMAILJS_TO_EMAIL || t('footer.contact_us.email');
 
     if (!serviceId || !templateId || !publicKey) {
       setStatus({
@@ -42,9 +41,13 @@ const Contact = () => {
       return;
     }
 
-    const subject = `New Quote Received - ${formData.name || "Unknown"} - ${formData.email || "no-email"
-      } - ${formData.company || "no-company"} - ${formData.phone || "no-phone"
-      } - ${formData.product || "no-product"}`;
+    const subject = t('contact_email.subject_template', {
+      name: formData.name || t('contact_email.unknown'),
+      email: formData.email || t('contact_email.no_email'),
+      company: formData.company || t('contact_email.no_company'),
+      phone: formData.phone || t('contact_email.no_phone'),
+      product: formData.product || t('contact_email.no_product')
+    });
 
     const templateParams = {
       subject,
