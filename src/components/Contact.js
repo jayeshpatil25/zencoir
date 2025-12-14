@@ -38,7 +38,7 @@ const Contact = () => {
     "w-full bg-transparent border-b border-slate-300 py-3 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-amber-700 transition-colors rounded-none";
 
   return (
-    <section id="contact" className="py-24 bg-amber-50 relative overflow-hidden">
+    <section id="contact" className="py-24 bg-amber-50 relative overflow-hidden scroll-mt-24 bg-amber-50/30 bg-[radial-gradient(rgba(217,119,6,0.1)_3px,transparent_3px),radial-gradient(rgba(217,119,6,0.1)_3px,transparent_3px)] bg-[size:30px_30px] bg-[position:0_0,15px_15px]">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent opacity-50"></div>
 

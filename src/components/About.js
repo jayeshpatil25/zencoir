@@ -21,10 +21,13 @@ const About = () => {
   }, [images.length]);
 
   return (
-    <section id="about" className="py-24 bg-amber-100">
+    <section
+      id="about"
+      // CHANGED: darker amber diagonal lines to create a visible "woven" texture
+      className="py-24 bg-amber-100 bg-[repeating-linear-gradient(45deg,rgba(217,119,6,0.1)_0px,rgba(217,119,6,0.1)_1px,transparent_1px,transparent_10px),repeating-linear-gradient(-45deg,rgba(217,119,6,0.1)_0px,rgba(217,119,6,0.1)_1px,transparent_1px,transparent_10px)] scroll-mt-24"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-[45%_55%] gap-16 items-center">
-
           {/* LEFT — SOOTHING CONTENT */}
           <div className="space-y-10">
             <div className="space-y-4">
@@ -37,19 +40,22 @@ const About = () => {
             </div>
 
             <p className="text-xl text-slate-600 leading-relaxed max-w-xl">
-              At Zencoir, we believe in working gently with nature. Our coir products are
-              thoughtfully crafted from renewable resources, reflecting balance,
-              responsibility, and care.
+              At Zencoir, we believe in working gently with nature. Our coir
+              products are thoughtfully crafted from renewable resources,
+              reflecting balance, responsibility, and care.
             </p>
 
             <p className="text-lg text-slate-500 leading-relaxed max-w-xl">
-              Every step — from sourcing to export — is guided by sustainability,
-              consistency, and a quiet commitment to quality that lasts.
+              Every step — from sourcing to export — is guided by
+              sustainability, consistency, and a quiet commitment to quality
+              that lasts.
             </p>
 
             <div className="flex items-center gap-8 pt-6">
               <div>
-                <div className="text-3xl font-semibold text-amber-800">100%</div>
+                <div className="text-3xl font-semibold text-amber-800">
+                  100%
+                </div>
                 <div className="text-xs uppercase tracking-widest text-slate-400">
                   Natural Materials
                 </div>
@@ -58,7 +64,9 @@ const About = () => {
               <div className="h-10 w-px bg-slate-300"></div>
 
               <div>
-                <div className="text-3xl font-semibold text-amber-800">Global</div>
+                <div className="text-3xl font-semibold text-amber-800">
+                  Global
+                </div>
                 <div className="text-xs uppercase tracking-widest text-slate-400">
                   Trusted Reach
                 </div>
@@ -81,7 +89,6 @@ const About = () => {
 
             <div className="absolute inset-0 bg-black/10" />
           </div>
-
         </div>
       </div>
     </section>

@@ -13,7 +13,11 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen bg-white flex items-center pt-20">
+    <section id="home" className="relative min-h-screen bg-white flex items-center pt-20 scroll-mt-24 overflow-hidden">
+      
+      {/* Subtle Texture Overlay */}
+      <div className="absolute inset-0 pointer-events-none opacity-[0.035] bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:18px_18px]"></div>
+
       {/* Abstract Background Elements */}
       <div className="absolute top-0 right-0 hidden lg:block w-2/5 h-full bg-amber-50 skew-x-12 pointer-events-none border-l border-slate-100"></div>
       
