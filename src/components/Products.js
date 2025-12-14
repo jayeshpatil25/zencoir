@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  FaAward, FaGlobe, FaHandshake, FaLeaf, FaPhone, FaEnvelope, 
-  FaMapMarkerAlt, FaBars, FaTimes, FaShippingFast, FaSeedling, 
-  FaCertificate, FaBoxes, FaHeadset, FaClock, FaChevronRight, FaArrowRight 
+import {
+  FaAward, FaGlobe, FaHandshake, FaLeaf, FaPhone, FaEnvelope,
+  FaMapMarkerAlt, FaBars, FaTimes, FaShippingFast, FaSeedling,
+  FaCertificate, FaBoxes, FaHeadset, FaClock, FaChevronRight, FaArrowRight
 } from 'react-icons/fa';
 
 import coir from '../assets/coir-pith.jpg';
@@ -16,7 +16,7 @@ const Products = () => {
       id: '01',
       description: 'Premium coir pith/peat for horticulture, gardening, and agricultural applications.',
       features: ['Excellent Water Retention', 'Natural pH Balance', 'Disease Resistant', 'Sustainable'],
-      image: coir, 
+      image: coir,
       icon: FaLeaf
     },
     {
@@ -37,7 +37,7 @@ const Products = () => {
             <h2 className="text-5xl font-bold text-slate-900 mb-3">Our Products</h2>
             <p className="text-lg text-slate-600 max-w-md">Processed to meet international standards.</p>
           </div>
-          <button 
+          <button
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             className="mt-6 md:mt-0 text-emerald-600 hover:text-emerald-800 flex items-center space-x-2 transition-colors font-medium"
           >
@@ -57,13 +57,13 @@ const Products = () => {
                     <span className="text-5xl font-bold text-slate-200 select-none group-hover:text-emerald-100 transition-colors">
                       {product.id}
                     </span>
-                    <h3 className="text-5xl font-bold text-slate-900">{product.name}</h3>
+                    <h3 className="text-4xl font-bold text-slate-900">{product.name}</h3>
                   </div>
-                  
+
                   <p className="text-2xl text-slate-600 leading-relaxed border-l-2 border-emerald-500 pl-4">
                     {product.description}
                   </p>
-                  
+
                   <ul className="grid grid-cols-2 gap-4 pt-4">
                     {product.features.map((feature, i) => (
                       <li key={i} className="flex items-center text-xl text-slate-600">
@@ -75,15 +75,15 @@ const Products = () => {
                 </div>
 
                 <div className={`flex justify-center ${idx % 2 === 1 ? 'md:order-1' : ''}`}>
-                  <div className="relative w-full max-w-md aspect-square">
-                     
-                     <div className="absolute inset-0 bg-emerald-500 blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
-                    
-                     <img 
-  src={product.image} 
-  alt={product.name}
-  className="relative w-full h-full object-cover rounded-2xl shadow-xl border border-slate-200 group-hover:border-emerald-500/50 transition-all duration-500"
-/>
+                  <div className="relative w-full max-w-full md:max-w-md aspect-square">
+
+                    <div className="absolute inset-0 bg-emerald-500 blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
+
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="relative w-full h-full object-cover rounded-2xl shadow-xl border border-slate-200 group-hover:border-emerald-500/50 transition-all duration-500"
+                    />
 
                   </div>
                 </div>
