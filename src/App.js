@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-white font-sans selection:bg-emerald-500 selection:text-white">
+    <div className="overflow-x-hidden min-h-screen bg-white font-sans selection:bg-emerald-500 selection:text-white">
       <Header />
       <Hero />
       <About />

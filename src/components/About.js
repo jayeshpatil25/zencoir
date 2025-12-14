@@ -68,7 +68,7 @@ const About = () => {
 
 
           {/* RIGHT — CAROUSEL */}
-          <div className="relative w-full h-[420px] rounded-2xl overflow-hidden shadow-lg ml-10">
+          <div className="relative w-full h-[420px] rounded-2xl overflow-hidden shadow-lg lg:ml-10">
             {images.map((img) => (
               <img
                 key={img}

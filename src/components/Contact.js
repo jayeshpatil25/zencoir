@@ -46,7 +46,7 @@ const Contact = () => {
         {/* Centered Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">Let's Connect</h2>
-          <p className="text-lg text-slate-600 font-light leading-relaxed max-w-2xl mx-auto">
+          <p className="text-xl text-slate-600 font-light leading-relaxed max-w-2xl mx-auto">
             Ready to start your coir benefit journey? Fill out the form below and we will get back to you with a personalized quote.
           </p>
         </div>
@@ -57,28 +57,28 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="space-y-8">
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-2">
-                  <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Full Name</label>
+                  <label className="text-md font-bold uppercase tracking-wider text-slate-500 ml-1">Full Name</label>
                   <input type="text" name="name" value={formData.name} onChange={handleChange} required className={inputStyles} placeholder="John Doe" />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Email Address</label>
+                  <label className="text-md font-bold uppercase tracking-wider text-slate-500 ml-1">Email Address</label>
                   <input type="email" name="email" value={formData.email} onChange={handleChange} required className={inputStyles} placeholder="john@company.com" />
                 </div>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-2">
-                  <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Company</label>
+                  <label className="text-md font-bold uppercase tracking-wider text-slate-500 ml-1">Company</label>
                   <input type="text" name="company" value={formData.company} onChange={handleChange} className={inputStyles} placeholder="Company Name" />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Phone</label>
+                  <label className="text-md font-bold uppercase tracking-wider text-slate-500 ml-1">Phone</label>
                   <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className={inputStyles} placeholder="+1 (555) 000-0000" />
                 </div>
               </div>
 
               <div className="space-y-2">
-                <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Product Interest</label>
+                <label className="text-md font-bold uppercase tracking-wider text-slate-500 ml-1">Product Interest</label>
                 <div className="relative">
                   <select name="product" value={formData.product} onChange={handleChange} className={`${inputStyles} appearance-none cursor-pointer`}>
                     <option value="" className="text-slate-400">Select a product</option>
@@ -93,7 +93,7 @@ const Contact = () => {
               </div>
 
               <div className="space-y-2">
-                <label className="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Message</label>
+                <label className="text-md font-bold uppercase tracking-wider text-slate-500 ml-1">Message</label>
                 <textarea name="message" value={formData.message} onChange={handleChange} required rows="4" className={`${inputStyles} resize-none`} placeholder="Tell us about your requirements..."></textarea>
               </div>
 

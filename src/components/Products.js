@@ -30,7 +30,7 @@ const Products = () => {
   ];
 
   return (
-    <section id="products" className="bg-white pt-20 pb-15">
+    <section id="products" className="bg-white pt-20 pb-15 overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-5">
         <div className="flex flex-col md:flex-row justify-between items-end border-b border-slate-200 pb-5">
           <div>
@@ -80,10 +80,11 @@ const Products = () => {
                      <div className="absolute inset-0 bg-emerald-500 blur-[60px] opacity-10 group-hover:opacity-20 transition-opacity"></div>
                     
                      <img 
-                       src={product.image} 
-                       alt={product.name}
-                       className="relative w-full h-full object-cover rounded-2xl shadow-xl border border-slate-200 group-hover:border-emerald-500/50 transition-all duration-500 grayscale group-hover:grayscale-0"
-                     />
+  src={product.image} 
+  alt={product.name}
+  className="relative w-full h-full object-cover rounded-2xl shadow-xl border border-slate-200 group-hover:border-emerald-500/50 transition-all duration-500"
+/>
+
                   </div>
                 </div>
               </div>

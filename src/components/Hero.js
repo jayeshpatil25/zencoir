@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen bg-white flex items-center pt-20">
       {/* Abstract Background Elements */}
-      <div className="absolute top-0 right-0 w-2/5 h-full bg-emerald-50 skew-x-12 pointer-events-none border-l border-slate-100"></div>
+<div className="absolute top-0 right-0 hidden lg:block w-2/5 h-full bg-emerald-50 skew-x-12 pointer-events-none border-l border-slate-100"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid lg:grid-cols-12 gap-12 items-center">

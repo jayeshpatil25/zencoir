@@ -1,5 +1,7 @@
 import React from 'react';
-import { FaCertificate } from 'react-icons/fa';
+import { GiPlantRoots } from 'react-icons/gi';
+import bg from '../assets/bg.jpg'; // use your image path
+
 
 // --- Services Component ---
 const Services = () => {
@@ -13,7 +15,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-slate-100">
+    <section id="services" className="py-20 bg-slate-100 overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Centered Heading */}
@@ -21,7 +23,7 @@ const Services = () => {
           <h2 className="text-5xl font-bold text-slate-900 mb-4">
             Our Services
           </h2>
-          <p className="text-lg text-slate-600 leading-relaxed">
+          <p className="text-xl text-slate-600 leading-relaxed">
             Comprehensive export solutions designed to make your international trade seamless, efficient, and profitable.
           </p>
         </div>
@@ -34,12 +36,12 @@ const Services = () => {
               className="group py-8 border-b border-slate-200 hover:border-emerald-500/50 transition-colors"
             >
               <div className="flex items-start justify-between mb-3">
-                <h3 className="text-xl font-bold text-slate-800 group-hover:text-emerald-600 transition-colors">
+                <h3 className="text-2xl font-bold text-slate-800 group-hover:text-emerald-600 transition-colors">
                   {service.title}
                 </h3>
-                <FaCertificate className="text-slate-400 group-hover:text-emerald-500 transition-colors text-base" />
+<GiPlantRoots className="text-slate-400 group-hover:text-emerald-500 transition-colors text-3xl" />
               </div>
-              <p className="text-base text-slate-500 group-hover:text-slate-600 transition-colors">
+              <p className="text-lg text-slate-500 group-hover:text-slate-600 transition-colors">
                 {service.details}
               </p>
             </div>
